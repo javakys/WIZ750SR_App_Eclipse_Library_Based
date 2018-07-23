@@ -1,0 +1,12 @@
+[submodule "Serial_to_Ethernet"]
+	path = Serial_to_Ethernet
+	url = git@github.com:javakys/Serial_to_Ethernet.git
+[submodule "src/Serial_to_Ethernet"]
+	path = src/Serial_to_Ethernet
+	url = git@github.com:javakys/Serial_to_Ethernet.git
+[submodule "src/PlatformHandler"]
+	path = src/PlatformHandler
+	url = git@github.com:javakys/PlatformHandler.git
+[submodule "src/Configuration"]
+	path = src/Configuration
+	url = git@github.com:javakys/Configuration.git
