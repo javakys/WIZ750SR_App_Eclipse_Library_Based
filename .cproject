@@ -69,12 +69,12 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/Callback}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/Configuration}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/WIZ750SR_App/src/ioLibrary/Ethernet}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/WIZ750SR_App/src/ioLibrary/Internet/DHCP}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/WIZ750SR_App/src/ioLibrary/Internet/DNS}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/WIZ750SR_App/src/ioLibrary/MDIO}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/WIZ750SR_App/src/PlatformHandler}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/WIZ750SR_App/src/Serial_to_Ethernet}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/PlatformHandler}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/Serial_to_Ethernet}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/ioLibrary_Driver/Ethernet/W7500x}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/ioLibrary_Driver/Internet/DHCP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/ioLibrary_Driver/Internet/DNS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/ioLibrary_Driver/MDIO}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.2109425013" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="DEBUG"/>

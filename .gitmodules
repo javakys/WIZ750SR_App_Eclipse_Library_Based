@@ -10,3 +10,6 @@
 [submodule "src/Configuration"]
 	path = src/Configuration
 	url = git@github.com:javakys/Configuration.git
+[submodule "src/ioLibrary_Driver"]
+	path = src/ioLibrary_Driver
+	url = git@github.com:javakys/ioLibrary_Driver.git

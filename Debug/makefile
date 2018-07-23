@@ -13,14 +13,25 @@ RM := rm -rf
 -include system/src/cortexm/subdir.mk
 -include system/src/cmsis/subdir.mk
 -include system/src/W7500x/subdir.mk
--include src/ioLibrary/MDIO/subdir.mk
--include src/ioLibrary/Internet/httpServer/subdir.mk
--include src/ioLibrary/Internet/DNS/subdir.mk
--include src/ioLibrary/Internet/DHCP/subdir.mk
--include src/ioLibrary/Ethernet/subdir.mk
--include src/ioLibrary/Application/loopback/subdir.mk
--include src/Serial_to_Ethernet/subdir.mk
--include src/PlatformHandler/subdir.mk
+-include src/ioLibrary_Driver/MDIO/subdir.mk
+-include src/ioLibrary_Driver/Internet/httpServer/subdir.mk
+-include src/ioLibrary_Driver/Internet/TFTP/subdir.mk
+-include src/ioLibrary_Driver/Internet/SNTP/subdir.mk
+-include src/ioLibrary_Driver/Internet/SNMP/subdir.mk
+-include src/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/subdir.mk
+-include src/ioLibrary_Driver/Internet/MQTT/subdir.mk
+-include src/ioLibrary_Driver/Internet/FTPServer/subdir.mk
+-include src/ioLibrary_Driver/Internet/FTPClient/subdir.mk
+-include src/ioLibrary_Driver/Internet/DNS/subdir.mk
+-include src/ioLibrary_Driver/Internet/DHCP/subdir.mk
+-include src/ioLibrary_Driver/Ethernet/W7500x/subdir.mk
+-include src/ioLibrary_Driver/Ethernet/W5500/subdir.mk
+-include src/ioLibrary_Driver/Ethernet/W5300/subdir.mk
+-include src/ioLibrary_Driver/Ethernet/W5200/subdir.mk
+-include src/ioLibrary_Driver/Ethernet/W5100S/subdir.mk
+-include src/ioLibrary_Driver/Ethernet/W5100/subdir.mk
+-include src/ioLibrary_Driver/Ethernet/subdir.mk
+-include src/ioLibrary_Driver/Application/loopback/subdir.mk
 -include src/Configuration/subdir.mk
 -include src/Callback/subdir.mk
 -include src/subdir.mk
@@ -99,7 +110,6 @@ post-build:
 
 secondary-outputs: $(SECONDARY_FLASH) $(SECONDARY_SIZE)
 
-.PHONY: all clean dependents
-.SECONDARY: post-build
+.PHONY: all clean dependents post-build
 
 -include ../makefile.targets
