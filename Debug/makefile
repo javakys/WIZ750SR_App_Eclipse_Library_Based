@@ -14,17 +14,8 @@ RM := rm -rf
 -include system/src/cmsis/subdir.mk
 -include system/src/W7500x/subdir.mk
 -include src/ioLibrary_Driver/MDIO/subdir.mk
--include src/ioLibrary_Driver/Internet/httpServer/subdir.mk
--include src/ioLibrary_Driver/Internet/TFTP/subdir.mk
--include src/ioLibrary_Driver/Internet/SNTP/subdir.mk
--include src/ioLibrary_Driver/Internet/SNMP/subdir.mk
--include src/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/subdir.mk
--include src/ioLibrary_Driver/Internet/MQTT/subdir.mk
--include src/ioLibrary_Driver/Internet/FTPServer/subdir.mk
--include src/ioLibrary_Driver/Internet/FTPClient/subdir.mk
 -include src/ioLibrary_Driver/Internet/DNS/subdir.mk
 -include src/ioLibrary_Driver/Internet/DHCP/subdir.mk
--include src/ioLibrary_Driver/Ethernet/W7500x/subdir.mk
 -include src/ioLibrary_Driver/Ethernet/W5500/subdir.mk
 -include src/ioLibrary_Driver/Ethernet/W5300/subdir.mk
 -include src/ioLibrary_Driver/Ethernet/W5200/subdir.mk
@@ -32,6 +23,8 @@ RM := rm -rf
 -include src/ioLibrary_Driver/Ethernet/W5100/subdir.mk
 -include src/ioLibrary_Driver/Ethernet/subdir.mk
 -include src/ioLibrary_Driver/Application/loopback/subdir.mk
+-include src/Serial_to_Ethernet2/subdir.mk
+-include src/PlatformHandler/subdir.mk
 -include src/Configuration/subdir.mk
 -include src/Callback/subdir.mk
 -include src/subdir.mk

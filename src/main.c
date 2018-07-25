@@ -483,7 +483,7 @@ void display_Dev_Info_main(void)
     printf(" - Serial settings: \r\n");
         printf("\t- Data %s port:  [%s%d]\r\n", STR_UART, STR_UART, SEG_DATA_UART);
         printf("\t   + UART IF: [%s]\r\n", uart_if_table[dev_config->serial_info[0].uart_interface]);
-        printf("\t   + %d-", baud_table[dev_config->serial_info[0].baud_rate]);
+        printf("\t   + %d-", (int)baud_table[dev_config->serial_info[0].baud_rate]);
         printf("%d-", word_len_table[dev_config->serial_info[0].data_bits]);
         printf("%s-", parity_table[dev_config->serial_info[0].parity]);
         printf("%d / ", stop_bit_table[dev_config->serial_info[0].stop_bits]);
@@ -535,7 +535,7 @@ void display_Dev_Info_dhcp(void)
     
     if(dev_config->options.dhcp_use) 
     {
-        if(flag_process_dhcp_success == ON) printf(" # DHCP IP Leased time : %u seconds\r\n", getDHCPLeasetime());
+        if(flag_process_dhcp_success == ON) printf(" # DHCP IP Leased time : %u seconds\r\n", (unsigned int)getDHCPLeasetime());
         else printf(" # DHCP Failed\r\n");
     }
 }
